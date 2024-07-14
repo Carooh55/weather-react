@@ -4,7 +4,7 @@ import { Audio } from "react-loader-spinner";
 
 export default function Test(props) {
   function handleResponse(response) {
-    alert(`The weather is ${response.data.city} is ${response.data.main}&decC`);
+    alert(`The weather is ${response.data.city} is ${response.data.main}C`);
   }
 
   let apiKey = "b2a5adcct04b33178913oc335f405433";

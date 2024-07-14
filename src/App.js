@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello from ReactJS</h1>
-        <Test name="New York" />
+        <Test city="New York" />
       </header>
     </div>
   );
